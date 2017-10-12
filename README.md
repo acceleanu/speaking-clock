@@ -12,3 +12,10 @@ The time allotted to the test is 1 hour. Your solution will be judged on a numbe
 software development practice. Incomplete solutions are acceptable.
 
 Please note any assumptions you make, or any further questions you have regarding the requirements.
+
+Current Implementation Assumptions
+----------------------------------
+- input validation has been performed already
+- only deal with the simple case of translating the time; however, the code is in a state in which it is easy
+to add new translation strategies in order to improve (e.g. 21:00 -> It's 9 o'clock pm)
+
